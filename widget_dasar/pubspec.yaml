@@ -1,0 +1,27 @@
+name: widget_dasar
+description: "Project praktikum Job VII Widget"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/logo_polbeng.png
+    - images/logo_kemdikbud.jpg
+    - images/logo_vokasi.jpg
+    - images/profile.png
